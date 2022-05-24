@@ -7,7 +7,7 @@ const Categroria =()=>{
         <>
         <div className="row">
             <div className="mt-1 ml-4 mr-4">
-                <h2 className="section-title" >Popular</h2>
+                <h2 className="section-title popular" >Popular</h2>
             </div>
             <div className="mt-2">
                 <div className="category-head">

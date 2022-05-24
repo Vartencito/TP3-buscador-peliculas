@@ -4,7 +4,7 @@ import '../estilos/General.css'
 const Pelicula =()=>{
     return (
         <>
-        <a href="detalle.html">
+        <a href="../public/detalle.html">
             <div className="media-element">
                 <img src={require("../img/arrival.png")} alt=""/>
                 <div className="ml-3">
