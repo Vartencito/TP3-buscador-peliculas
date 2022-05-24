@@ -6,7 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('rootDetalle'));
 root.render(
-    <Detalle />
+    <Detalle
+     />
 
 );
 
