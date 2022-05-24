@@ -9,7 +9,7 @@ const Navbar =()=>{
         //Hacer que la barra de busqueda y el boton esten al lado del otro
         <>
             <nav className="colorNavbar navbar navbar-expand-lg navbar-light ">
-                <a className="navbar-brand" href="#">Pelispedia</a>
+                <a className="navbar-brand tituloNavbar" href="#">Pelispedia</a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon">
                     </span>

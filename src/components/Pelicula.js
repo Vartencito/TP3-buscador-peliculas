@@ -1,5 +1,6 @@
 import React from "react";
 import '../estilos/General.css'
+import '../estilos/Peliculas.css'
 
 const Pelicula =()=>{
     return (

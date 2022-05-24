@@ -142,7 +142,7 @@ html {
       height: 500px;
   }
   
-  /***************/
+  /*************************/
   @media(max-width: 1170px){
     .posts-main-container{
         grid-template-columns: repeat(2, 1fr);
@@ -152,5 +152,8 @@ html {
     .posts-main-container{
         grid-template-columns: 1fr;
     }
+  }
+  .scrollable-element {
+    scrollbar-width: none;
   }
   
