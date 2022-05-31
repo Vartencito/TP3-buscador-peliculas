@@ -1,9 +1,10 @@
 import React from 'react'
 import Navbar from './components/Navbar';
-import Carousel from './components/Carousel';
+// import Carousel from './components/Carousel';
 import Form from './components/Form'
-import Categroria from './components/Categoria';
-import Pelicula from './components/Pelicula';
+// import Categroria from './components/Categoria';
+// import Pelicula from './components/Pelicula';
+import Seccion from './components/Seccion'
 
 //instalar node
 
@@ -13,63 +14,9 @@ function App() {
     <Navbar />
     <br/>
     <Form />
-    <div class="container mt-3">
-    <Categroria />
-    <div class="media-scroller media-scroller--with-groups snaps-inline scrollable-element"> 
-      <div className="media-group"> 
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-      </div>
-      <div className="media-group"> 
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-      </div>
-    </div>
-    </div>
-    <div class="container mt-3">
-    <Categroria />
-    <div class="media-scroller media-scroller--with-groups snaps-inline scrollable-element"> 
-      <div className="media-group"> 
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-      </div>
-      <div className="media-group"> 
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-      </div>
-    </div>
-    </div>
-    <div class="container mt-3">
-    <Categroria />
-    <div class="media-scroller media-scroller--with-groups snaps-inline scrollable-element"> 
-      <div className="media-group"> 
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-      </div>
-      <div className="media-group"> 
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-        <Pelicula />
-      </div>
-    </div>
-    </div>
+    <Seccion />
+    <Seccion />
+    <Seccion />
     </>
   );
 }

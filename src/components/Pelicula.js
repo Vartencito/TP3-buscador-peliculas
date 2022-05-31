@@ -1,6 +1,6 @@
 import React from "react";
 import '../estilos/General.css'
-import '../estilos/Peliculas.css'
+import '../estilos/Pelicula.css'
 
 const Pelicula =()=>{
     return (
