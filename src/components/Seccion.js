@@ -3,7 +3,6 @@ import '../estilos/General.css'
 import Categoria from './Categoria'
 import Pelicula from './Pelicula'
 
-
 const Seccion =()=>{
 
     return (
@@ -28,7 +27,9 @@ const Seccion =()=>{
         </div>
         </div>
         </>
+
     );
+    
 }
 
 export default Seccion;
