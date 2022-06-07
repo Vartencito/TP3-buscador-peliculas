@@ -1,5 +1,5 @@
 import React from "react";
-import '../estilos/Form.css'
+// import '../estilos/Form.css'
 import '../estilos/General.css'
 
 const Form =()=> {

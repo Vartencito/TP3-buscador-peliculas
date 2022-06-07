@@ -1,7 +1,6 @@
 import React from "react";
-import Buscador from "./Buscador";
 import '../estilos/Navbar.css';
-import '../estilos/General.css'
+// import '../estilos/General.css'
 
 const Navbar =()=>{
     return ( 

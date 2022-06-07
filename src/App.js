@@ -1,12 +1,11 @@
-import React from 'react'
+import React from 'react';
 import Navbar from './components/Navbar';
-// import Carousel from './components/Carousel';
-import Form from './components/Form'
-// import Categroria from './components/Categoria';
-// import Pelicula from './components/Pelicula';
-import Seccion from './components/Seccion'
+import Form from './components/Form';
+import Seccion from './components/Seccion';
+import './estilos/Wrapper.css';
+import Pelicula from './components/Pelicula.js'
+import PeliculaPrueba from './components/PeliculaPrueba';
 
-//instalar node
 
 function App() {
   return (
@@ -17,6 +16,61 @@ function App() {
     <Seccion />
     <Seccion />
     <Seccion />
+    <br/>
+
+    <div className="Wrapper container">
+      <Pelicula />
+      <Pelicula />
+      <Pelicula />
+      <Pelicula />
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+      <Pelicula />
+      <Pelicula />
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+
+      <Pelicula />
+      <Pelicula />
+      <Pelicula /><Pelicula />
+
+<Pelicula />
+
+<Pelicula />
+
+<Pelicula />
+
+<Pelicula />
+<Pelicula />
+<Pelicula /><Pelicula />
+
+<Pelicula />
+
+<Pelicula />
+
+<Pelicula />
+
+<Pelicula />
+<Pelicula />
+<Pelicula />
+
+
+    </div>  
+      <PeliculaPrueba />
     </>
   );
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar";
 import Buscador from "./Buscador";
-import '../estilos/General.css'
+// import '../estilos/General.css'
 
 const Header =()=>{
     return (

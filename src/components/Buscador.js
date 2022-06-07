@@ -1,6 +1,6 @@
 import React from "react";
 import '../estilos/Buscador.css'
-import '../estilos/General.css'
+// import '../estilos/General.css'
 
 
 const Buscador =()=> {

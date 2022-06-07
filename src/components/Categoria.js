@@ -1,5 +1,5 @@
 import React from "react";
-import '../estilos/General.css'
+// import '../estilos/General.css'
 import '../estilos/Categoria.css'
 
 const Categroria =()=>{
